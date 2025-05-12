@@ -1,21 +1,30 @@
 *{
-    background-color: darkslategray;
+
     color: beige;    
 }
 
 body{
+    background-color: darkslategray;
     margin: 0 auto;
 }
-
-h1{
-    display: inline-block;
+.navbar{
     background-color: blueviolet;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
     color:rgb(151, 201, 202);
 }
 
-.navbar{
-    background-color: blueviolet;
-}
