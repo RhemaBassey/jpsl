@@ -1,9 +1,21 @@
 *{
     background-color: darkslategray;
-    color: beige; 
-    
+    color: beige;    
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1{
+    display: inline-block;
+    background-color: blueviolet;
 }
 
 p{
-    color: red;
+    color:rgb(151, 201, 202);
+}
+
+.navbar{
+    background-color: blueviolet;
 }
